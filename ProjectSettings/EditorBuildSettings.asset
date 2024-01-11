@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_1.unity
     guid: d60377bd727634c03bf259435c29ed14
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Lonely Capybara.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/End.unity
