@@ -22,10 +22,15 @@ public class MyCharacter : MonoBehaviour
         //find a path to the destination from our current position
         bool foundPath = UnityEngine.AI.NavMesh.CalculatePath(transform.position, TargetPos, UnityEngine.AI.NavMesh.AllAreas, _path);
         _simplePath.Clear();
+
+        print("Found path: " + foundPath);
+
         for (int i = 0; i < _path.corners.Length; i++)
         {
+            //GameObject pathCorner = Instantiate(GameObject.CreatePrimitive(PrimitiveType.Sphere), _path.corners[i], new Quaternion());
             _simplePath.Add(_path.corners[i]);
         }
+        Debug.Log("target is set");
     }
     // Update is called once per frame
     void Update()
@@ -44,6 +49,7 @@ public class MyCharacter : MonoBehaviour
                 _simplePath.RemoveAt(0);
                 if (_simplePath.Count > 0)
                 {
+                    Debug.Log("grabbing a new target");
                     RelNodePos = (transform.position - _simplePath[0]);
                 }
             }

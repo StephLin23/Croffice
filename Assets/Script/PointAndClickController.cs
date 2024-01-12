@@ -14,8 +14,9 @@ public class PointAndClickController : MonoBehaviour
     void Update()
     {
         //check if the user is pressing the mouse button
-        if (Input.GetButton("Fire1")) //by default, the left mouse is hooked to "Fire1"
+        if (Input.GetButtonDown("Fire1")) //by default, the left mouse is hooked to "Fire1"
         {
+	    Debug.Log("LMB clicked!");
             //get the position of the mouse pointer (in screen space)
             Vector3 mousePos = Input.mousePosition;
             //calculate the position of the mouse in world space (this is a position just in front of the camera, not the point on the 
@@ -29,6 +30,7 @@ public class PointAndClickController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(_GameCamera.transform.position, direction, out hit))
             {
+		        Debug.Log("hit: " + hit.collider.name);
                 //the point that the ray hits geometry is the point we are interested in
                 _GameCharacter.SetTarget(hit.point);
             }
