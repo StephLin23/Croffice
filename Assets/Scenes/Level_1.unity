@@ -8498,6 +8498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322788150}
   - component: {fileID: 322788151}
+  - component: {fileID: 322788152}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -8601,6 +8602,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00018623564, y: 0.012637006, z: -0.0015895213}
     m_Extent: {x: 0.009098772, y: 0.013517527, z: 0.008187741}
   m_DirtyAABB: 0
+--- !u!114 &322788152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322788149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901353098517f384c9ea4ee4a89e9f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &326182666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b98cb45b745f204fa1ea89a48b71ffa, type: 3}
@@ -36053,6 +36066,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a044c46a79bbb4e44bbc6fca7bd7a6c2, type: 3}
       propertyPath: m_Name
       value: CharacterWalk (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a044c46a79bbb4e44bbc6fca7bd7a6c2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: a044c46a79bbb4e44bbc6fca7bd7a6c2, type: 3}
       propertyPath: m_Enabled
