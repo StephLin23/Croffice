@@ -9,13 +9,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: a9246c6f3fe93d9468f0cd96aef2f8d5
   - enabled: 1
+    path: Assets/Scenes/Elevator.unity
+    guid: 92e6e99fc87acec41babaec9f962abcb
+  - enabled: 1
+    path: Assets/Scenes/Intro cutscene.unity
+    guid: 386ed08eb8f9d5044aec70fd34789a32
+  - enabled: 1
     path: Assets/Scenes/Level_0.unity
     guid: 5bd78ef629f134809a6d24d207ca159b
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: d60377bd727634c03bf259435c29ed14
   - enabled: 1
-    path: Assets/Scenes/Lonely Capybara.unity
+    path: Assets/Scenes/Level_2.unity
+    guid: 3d5cd243d4516e34fa887e7256b0ffce
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 06604d60f8f33da45b0edeb935cf2fc5
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/End.unity
