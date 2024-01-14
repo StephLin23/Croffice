@@ -18,13 +18,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2.22
+    value: 6.04
   threshold:
     overrideState: 1
-    value: 1.39
+    value: 1.24
   softKnee:
     overrideState: 1
-    value: 0.54
+    value: 0.24
   clamp:
     overrideState: 0
     value: 65471.58
@@ -35,8 +35,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 1, g: 0.91349864, b: 0.8349056, a: 1}
   fastMode:
     overrideState: 0
     value: 0
