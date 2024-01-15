@@ -1459,7 +1459,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -2163,7 +2163,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6574,7 +6574,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -6478536213147159724, guid: 19bee5608a3954b4c8c4cfe8889d0520, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -6916,7 +6916,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -7372,7 +7372,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11341,7 +11341,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -11608,6 +11608,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.213
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -17503,7 +17507,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17711,7 +17715,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24316,7 +24320,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -25222,7 +25226,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25462,7 +25466,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27019,7 +27023,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -28374,7 +28378,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -31141,7 +31145,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -32198,7 +32202,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -36567,7 +36571,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -38898,7 +38902,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39023,7 +39027,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -40246,7 +40250,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -42150,7 +42154,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -44820,7 +44824,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 9185737683893222716, guid: 7d2e6c59636bd4d36af2af1ffbfbf2d3, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -45910,7 +45914,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -45975,7 +45979,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48039,7 +48043,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -54822,7 +54826,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -57160,7 +57164,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -58056,7 +58060,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -58342,7 +58346,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 9185737683893222716, guid: 7d2e6c59636bd4d36af2af1ffbfbf2d3, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -58987,7 +58991,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -60774,6 +60778,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.213
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -64435,7 +64443,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -64912,7 +64920,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -65388,7 +65396,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -65482,7 +65490,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -74045,7 +74053,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -74272,7 +74280,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -75979,7 +75987,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -77305,7 +77313,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -77905,7 +77913,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -79393,6 +79401,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -79828,7 +79840,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -83029,7 +83041,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -83975,7 +83987,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -87140,6 +87152,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -88018,7 +88034,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -88628,7 +88644,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -88938,7 +88954,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -91165,7 +91181,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence

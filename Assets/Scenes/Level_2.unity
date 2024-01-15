@@ -964,6 +964,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -1181,7 +1185,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1504,7 +1508,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2265,7 +2269,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3920,7 +3924,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4005,7 +4009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136120841}
   m_LocalRotation: {x: -0.06112591, y: -0.23810872, z: 0.015017192, w: -0.96919674}
-  m_LocalPosition: {x: 1.4784636, y: 0.08960564, z: 2.0583034}
+  m_LocalPosition: {x: 1.5, y: 0.4, z: 2.1}
   m_LocalScale: {x: 0.3328575, y: 0.38190043, z: 0.3819004}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4947,7 +4951,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -5198,7 +5202,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -6563,7 +6567,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -7791,7 +7795,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence (1)
@@ -9990,7 +9994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281708329}
   m_LocalRotation: {x: 0.06294357, y: 0, z: -0, w: 0.9980171}
-  m_LocalPosition: {x: -0, y: 0.18643633, z: 0.29964185}
+  m_LocalPosition: {x: -0.02, y: 0.33, z: 0.33}
   m_LocalScale: {x: 0.16969441, y: 0.19469725, z: 0.19469725}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10082,7 +10086,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16309,7 +16313,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -17791,7 +17795,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19350,7 +19354,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -20348,7 +20352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586589396}
   m_LocalRotation: {x: 0.6679634, y: -0.17318068, z: -0.16410282, w: -0.7049139}
-  m_LocalPosition: {x: 1.3785338, y: -0.19242322, z: 1.8672016}
+  m_LocalPosition: {x: 1.4, y: 0.1, z: 1.9}
   m_LocalScale: {x: 0.041402943, y: 0.013164994, z: 0.1793008}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20440,7 +20444,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20534,7 +20538,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22589,7 +22593,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -23095,7 +23099,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23189,7 +23193,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25670,7 +25674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710929356}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0.09899392, z: 0}
+  m_LocalPosition: {x: -0.02, y: 0.24, z: 0.03}
   m_LocalScale: {x: 0.19469726, y: 0.19469726, z: 0.19469726}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25824,7 +25828,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 9185737683893222716, guid: 7d2e6c59636bd4d36af2af1ffbfbf2d3, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -26684,7 +26688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736246189}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -0.20806958, z: -0.000000007778887}
+  m_LocalPosition: {x: -0.02, y: -0.06, z: 0.03}
   m_LocalScale: {x: 0.01697286, y: 0.01697286, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29993,7 +29997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818257160}
   m_LocalRotation: {x: -0.68782616, y: 0, z: -0, w: 0.72587544}
-  m_LocalPosition: {x: -0, y: 0.042655, z: 0.18969999}
+  m_LocalPosition: {x: -0.02, y: 0.19, z: 0.22}
   m_LocalScale: {x: 0.021108, y: 0.006711678, z: 0.09140922}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33848,7 +33852,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -34402,7 +34406,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37375,7 +37379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015795613}
   m_LocalRotation: {x: 0.5, y: 0.49999997, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: -0, y: -0.2953284, z: 0}
+  m_LocalPosition: {x: -0.02, y: -0.15, z: 0.03}
   m_LocalScale: {x: -0.014844898, y: -0.014844898, z: -0.014844898}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39062,7 +39066,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068753802}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -0.14660077, z: -0.00000001608597}
+  m_LocalPosition: {x: -0.02, y: -0, z: 0.03}
   m_LocalScale: {x: 0.012, y: 0.012, z: 0.042}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39987,7 +39991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079852370}
   m_LocalRotation: {x: 0.6866873, y: -0.1687028, z: -0.16870283, w: -0.6866872}
-  m_LocalPosition: {x: 1.2061087, y: -0.7816634, z: 1.5374641}
+  m_LocalPosition: {x: 1.2, y: -0.5, z: 1.6}
   m_LocalScale: {x: 0.042109713, y: 0.04210971, z: 0.052611608}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40504,7 +40508,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -42771,7 +42775,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43807,7 +43811,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -44062,6 +44066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -54147,7 +54155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334751654}
   m_LocalRotation: {x: 0.6866873, y: -0.1687028, z: -0.16870283, w: -0.6866872}
-  m_LocalPosition: {x: 1.2061087, y: -0.081913576, z: 1.5374641}
+  m_LocalPosition: {x: 1.2, y: 0.2, z: 1.6}
   m_LocalScale: {x: 0.3819004, y: 0.3819004, z: 0.3819004}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62312,7 +62320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411546818}
   m_LocalRotation: {x: 0.6866873, y: -0.1687028, z: -0.16870283, w: -0.6866872}
-  m_LocalPosition: {x: 1.2061087, y: -0.6842225, z: 1.5374641}
+  m_LocalPosition: {x: 1.2, y: -0.4, z: 1.6}
   m_LocalScale: {x: 0.033292737, y: 0.033292737, z: 0.039228942}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65129,7 +65137,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -67670,7 +67678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528408953}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -0.25774607, z: 0}
+  m_LocalPosition: {x: -0.02, y: -0.11, z: 0.03}
   m_LocalScale: {x: 0.021468543, y: 0.021468543, z: 0.02682162}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73725,7 +73733,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -73837,7 +73845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 59.195038
+      value: 56.235287
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_LocalScale.y
@@ -73849,7 +73857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.7
+      value: 33.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -73890,7 +73898,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 9185737683893222716, guid: 7d2e6c59636bd4d36af2af1ffbfbf2d3, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -74573,7 +74581,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712366248}
   m_LocalRotation: {x: -0.60485214, y: -0.36627024, z: -0.36627027, w: 0.60485214}
-  m_LocalPosition: {x: 1.2061087, y: -0.8553818, z: 1.5374641}
+  m_LocalPosition: {x: 1.2, y: -0.6, z: 1.6}
   m_LocalScale: {x: -0.02911939, y: -0.029119391, z: -0.02911939}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75267,7 +75275,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d205ad84116f9484e8e4380fef7bb324, type: 2}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -75604,7 +75612,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -83632,7 +83640,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -90351,7 +90359,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -6478536213147159724, guid: 19bee5608a3954b4c8c4cfe8889d0520, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -91745,7 +91753,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -91964,6 +91972,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -92159,7 +92171,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -92329,7 +92341,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -93952,7 +93964,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -96251,7 +96263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073705336}
   m_LocalRotation: {x: 0.6866873, y: -0.1687028, z: -0.16870283, w: -0.6866872}
-  m_LocalPosition: {x: 1.2061087, y: -0.56365055, z: 1.5374641}
+  m_LocalPosition: {x: 1.2, y: -0.3, z: 1.6}
   m_LocalScale: {x: 0.023537902, y: 0.023537902, z: 0.082384005}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96711,7 +96723,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -96897,6 +96909,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -97803,7 +97819,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
@@ -98541,7 +98557,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4874126678125670354, guid: 9a1c44df7f74c4c25a0513046910bfea, type: 3}
+      objectReference: {fileID: 4874126678125670354, guid: 41366048a6e46474cbb798d3a5cd8870, type: 3}
     - target: {fileID: 919132149155446097, guid: 661d685e026c547f0a6c2f2d0c859fe7, type: 3}
       propertyPath: m_Name
       value: fence
