@@ -5,6 +5,7 @@ using UnityEngine.Video;
 public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public string nextSceneName = ""; // Default next scene name
 
     void Start()
     {
@@ -15,6 +16,6 @@ public class VideoController : MonoBehaviour
     void OnVideoEnd(VideoPlayer vp)
     {
         // Load the next scene when the video ends
-        SceneManager.LoadScene("Level_0");
+        SceneManager.LoadScene(nextSceneName);
     }
 }
