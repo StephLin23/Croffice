@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GoodEnd.unity
     guid: 51146dfdbb2dce547a4eced458e06b80
   - enabled: 1
+    path: Assets/Scenes/BadEnd.unity
+    guid: f194d2da2437090498730571d5b8427c
+  - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 821b119f023bd064cbeedc5904dced32
   m_configObjects: {}

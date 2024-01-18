@@ -30,7 +30,7 @@ public class TimerScript : MonoBehaviour
         else
         {
             // Timer has reached zero, transition to another scene
-            SceneManager.LoadScene("Lose");
+            SceneManager.LoadScene("BadEnd");
 
             // Destroy the timer GameObject
             Destroy(gameObject);
