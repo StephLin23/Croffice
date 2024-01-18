@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class MyCharacter : MonoBehaviour
 {
     //a variable to hold the current destination of the character
@@ -116,7 +118,25 @@ public class MyCharacter : MonoBehaviour
                         //its not the floor, depenatrate in the natural direction
                         transform.position += hitDirection * hitDistance;
                     }
+
+                    if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(2).isLoaded)
+                    {
+                        SceneManager.LoadScene(3);
+                    }
+                    if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(4).isLoaded)
+                    {
+                        SceneManager.LoadScene(5);
+                    }
+                    if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(6).isLoaded)
+                    {
+                        SceneManager.LoadScene(7);
+                    }
+                    if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(8).isLoaded)
+                    {
+                        SceneManager.LoadScene(9);
+                    }
                 }
+            
             }
         }
     }
