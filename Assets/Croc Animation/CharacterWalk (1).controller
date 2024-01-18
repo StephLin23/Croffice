@@ -29,7 +29,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MyCharacter|StephNewWalk (1)
+  m_Name: Walk
   m_Speed: 2
   m_CycleOffset: 0
   m_Transitions: []
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -7407213677157860612, guid: a044c46a79bbb4e44bbc6fca7bd7a6c2, type: 3}
+  m_Motion: {fileID: -4014714787461701708, guid: a044c46a79bbb4e44bbc6fca7bd7a6c2, type: 3}
   m_Tag: 
   m_SpeedParameter: WalkSpeed
   m_MirrorParameter: 
