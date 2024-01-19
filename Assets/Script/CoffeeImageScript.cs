@@ -9,8 +9,8 @@ public class CoffeeImageScript : MonoBehaviour
     public Sprite[] coffeeSprites; // Array of coffee sprites indicating different states
 
     private int currentSpriteIndex = 0; // Index of the current coffee sprite
-    private static float timer = 0.0f; // Static timer to track sprite change intervals
-    private float timeBetweenChanges = 5.0f; // Time between sprite changes
+    private static float timer = .1f; // Static timer to track sprite change intervals
+    public float timeBetweenChanges = 5.0f; // Time between sprite changes
 
     void Awake()
     {
@@ -65,12 +65,6 @@ public class CoffeeImageScript : MonoBehaviour
     {
         // Change to the next coffee sprite
         currentSpriteIndex++;
-
-        // If we've reached the end, loop back to the beginning
-        if (currentSpriteIndex >= coffeeSprites.Length)
-        {
-            currentSpriteIndex = 0;
-        }
 
         // Save the current sprite index to PlayerPrefs
         PlayerPrefs.SetInt("SpriteIndex", currentSpriteIndex);

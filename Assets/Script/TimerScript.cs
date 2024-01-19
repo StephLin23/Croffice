@@ -81,6 +81,9 @@ public class TimerScript : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "GoodEnd")
         {
             timerActive = false;
+
+            // Destroy the TimerController component (this script) along with its GameObject
+            Destroy(gameObject);
         }
     }
 }
