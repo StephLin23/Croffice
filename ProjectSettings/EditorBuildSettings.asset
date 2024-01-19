@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatCutscene1.unity
     guid: 542c0dd2c7c1447dbae09ab402bcde0a
+  - enabled: 1
+    path: Assets/Scenes/CatCutscene2.unity
+    guid: 5bd9ac85114a64bfda879f06d12efbb4
+  - enabled: 1
+    path: Assets/Scenes/CatCutscene3.unity
+    guid: e8571989f0e094f878f5c01e8bea17c1
   m_configObjects: {}

@@ -737,6 +737,7 @@ GameObject:
   - component: {fileID: 1985204449}
   - component: {fileID: 1985204448}
   - component: {fileID: 1985204450}
+  - component: {fileID: 1985204451}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -813,3 +814,17 @@ MonoBehaviour:
   - {fileID: 32900000, guid: fd2c92309bcd748b89414769a8bf2f46, type: 3}
   - {fileID: 32900000, guid: cc5889ab83e7844b5bef414e370d7f07, type: 3}
   - {fileID: 32900000, guid: decafd81120664aa1b59d2971ca3afd6, type: 3}
+--- !u!114 &1985204451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985204446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e837af6a5c417814bbac49c4827f88bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1985204448}
+  nextSceneName: Level_1

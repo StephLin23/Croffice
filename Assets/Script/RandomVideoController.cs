@@ -57,6 +57,7 @@ public class RandomVideoController : MonoBehaviour
 
     string GetPreviousSceneName()
     {
+        // instead, read player pref that stores current (floor) level
         // Check if there is at least one scene in the build settings
         if (SceneManager.sceneCountInBuildSettings > 1)
         {
@@ -66,6 +67,7 @@ public class RandomVideoController : MonoBehaviour
             // Check if the current scene is not the first scene
             if (currentSceneIndex > 0)
             {
+                Debug.Log("returning to " + SceneManager.GetSceneByBuildIndex(currentSceneIndex - 1).name);
                 // Return the name of the scene before the current scene
                 return SceneManager.GetSceneByBuildIndex(currentSceneIndex - 1).name;
             }

@@ -127,6 +127,7 @@ public class MyCharacter : MonoBehaviour
                     if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(2).isLoaded)
                     {
                         SceneManager.LoadScene(3);
+                        // update a playerpref to store the level that we are loading right now
                     }
                     if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(4).isLoaded)
                     {
@@ -143,6 +144,14 @@ public class MyCharacter : MonoBehaviour
                     if (coliders[i].gameObject.layer == 6 && SceneManager.GetSceneByBuildIndex(4).isLoaded)
                     {
                         SceneManager.LoadScene(12);
+                    }
+                    if (coliders[i].gameObject.layer == 6 && SceneManager.GetSceneByBuildIndex(6).isLoaded)
+                    {
+                        SceneManager.LoadScene(13);
+                    }
+                    if (coliders[i].gameObject.layer == 6 && SceneManager.GetSceneByBuildIndex(8).isLoaded)
+                    {
+                        SceneManager.LoadScene(14);
                     }
 
                 }

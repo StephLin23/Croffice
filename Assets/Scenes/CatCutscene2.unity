@@ -736,7 +736,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1985204449}
   - component: {fileID: 1985204448}
-  - component: {fileID: 1985204447}
+  - component: {fileID: 1985204450}
+  - component: {fileID: 1985204451}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -744,20 +745,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1985204447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985204446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e837af6a5c417814bbac49c4827f88bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 1985204448}
-  nextSceneName: Level_1
 --- !u!328 &1985204448
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -766,7 +753,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985204446}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: f76132904710f4ba5a193e12b7b71a7e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 3ce6af1f9a39445698ae28e12a83dc63, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1383110042}
@@ -808,3 +795,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1985204450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985204446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cac455d52a36403397d98e04c22490f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1985204448}
+  videoClips:
+  - {fileID: 32900000, guid: 3ce6af1f9a39445698ae28e12a83dc63, type: 3}
+  - {fileID: 32900000, guid: f76132904710f4ba5a193e12b7b71a7e, type: 3}
+  - {fileID: 32900000, guid: fd2c92309bcd748b89414769a8bf2f46, type: 3}
+  - {fileID: 32900000, guid: cc5889ab83e7844b5bef414e370d7f07, type: 3}
+  - {fileID: 32900000, guid: decafd81120664aa1b59d2971ca3afd6, type: 3}
+--- !u!114 &1985204451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985204446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e837af6a5c417814bbac49c4827f88bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1985204448}
+  nextSceneName: Level_2
