@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 821b119f023bd064cbeedc5904dced32
+  - enabled: 1
+    path: Assets/Scenes/CatCutscene1.unity
+    guid: 542c0dd2c7c1447dbae09ab402bcde0a
   m_configObjects: {}

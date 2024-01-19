@@ -34,9 +34,14 @@ public class MyCharacter : MonoBehaviour
         }
         Debug.Log("target is set");
     }
+
+
     // Update is called once per frame
     void Update()
     {
+
+
+
         //when updating, work out the direction we need to move in
 
         Vector3 MoveDirection = Vector3.zero;
@@ -135,6 +140,11 @@ public class MyCharacter : MonoBehaviour
                     {
                         SceneManager.LoadScene(9);
                     }
+                    if (coliders[i].gameObject.layer == 6 && SceneManager.GetSceneByBuildIndex(4).isLoaded)
+                    {
+                        SceneManager.LoadScene(12);
+                    }
+
                 }
             
             }
