@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatCutscene3.unity
     guid: e8571989f0e094f878f5c01e8bea17c1
+  - enabled: 1
+    path: Assets/Scenes/Elevator_4.unity
+    guid: fbfd3d45fa28436498e4e0fffb4d05ad
   m_configObjects: {}
