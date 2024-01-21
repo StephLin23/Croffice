@@ -12915,7 +12915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a9fa549e6f3e8401fa3d756093b592f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6724b5e599f56974b975acb41aad84df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13121,13 +13121,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coffeeImage: {fileID: 1129178692}
   coffeeSprites:
-  - {fileID: 21300000, guid: b0077a0f8d3f23841937f4afd0530d0e, type: 3}
-  - {fileID: 21300000, guid: e418e83006bab234788ed787f83540e1, type: 3}
-  - {fileID: 21300000, guid: 98029530451a76140aa5b91a3e736239, type: 3}
-  - {fileID: 21300000, guid: 0ce16f122e2ec6e4a81c6c8cb07b1419, type: 3}
-  - {fileID: 21300000, guid: 9bdba43bde4b42c4eae2b6e33a4d4103, type: 3}
-  - {fileID: 21300000, guid: 0ff3d06c1b9cb7b4e934de78f865a1bd, type: 3}
-  - {fileID: 21300000, guid: 3bc3587196240f2409324a8989dd1812, type: 3}
+  - {fileID: 21300000, guid: 4441de9f35a7a724580655e15b0d35d4, type: 3}
+  - {fileID: 21300000, guid: 82f8117571fd5964694be2fc99beb37d, type: 3}
+  - {fileID: 21300000, guid: 8354f809f41866047b30dffcd5db1f7c, type: 3}
+  - {fileID: 21300000, guid: ad67f86f81565b642b8878ad485cf278, type: 3}
+  - {fileID: 21300000, guid: fd6a5e13db7a4794896155d72b749121, type: 3}
+  - {fileID: 21300000, guid: 31773f249213a414ab7284f4df49b64c, type: 3}
+  - {fileID: 21300000, guid: 4174ac4c4da317f42984a97e40aa306e, type: 3}
   timeBetweenChanges: 50
 --- !u!1 &1129830648
 GameObject:
@@ -18988,10 +18988,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
