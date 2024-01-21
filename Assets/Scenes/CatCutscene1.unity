@@ -810,7 +810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1985204448}
   videoClips:
-  - {fileID: 32900000, guid: 3ce6af1f9a39445698ae28e12a83dc63, type: 3}
+  - {fileID: 32900000, guid: 51d3916dbea0748cca5ecbcdb2bc29ce, type: 3}
   - {fileID: 32900000, guid: f76132904710f4ba5a193e12b7b71a7e, type: 3}
   - {fileID: 32900000, guid: fd2c92309bcd748b89414769a8bf2f46, type: 3}
   - {fileID: 32900000, guid: cc5889ab83e7844b5bef414e370d7f07, type: 3}

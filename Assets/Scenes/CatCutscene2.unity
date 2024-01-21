@@ -810,11 +810,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1985204448}
   videoClips:
-  - {fileID: 32900000, guid: 3ce6af1f9a39445698ae28e12a83dc63, type: 3}
-  - {fileID: 32900000, guid: f76132904710f4ba5a193e12b7b71a7e, type: 3}
-  - {fileID: 32900000, guid: fd2c92309bcd748b89414769a8bf2f46, type: 3}
-  - {fileID: 32900000, guid: cc5889ab83e7844b5bef414e370d7f07, type: 3}
-  - {fileID: 32900000, guid: decafd81120664aa1b59d2971ca3afd6, type: 3}
+  - {fileID: 32900000, guid: 954c993a34b354fbbb2dc8cea011772e, type: 3}
+  - {fileID: 32900000, guid: b11985c7941ed4153b6bfd4794b41e2c, type: 3}
+  - {fileID: 32900000, guid: 08ed562b5edf1405f8b0be3e36a6d8df, type: 3}
+  - {fileID: 32900000, guid: ecc623f04120e43df8a3113560063401, type: 3}
+  - {fileID: 32900000, guid: ef67470a1600b46b28e8370579355e0c, type: 3}
 --- !u!114 &1985204451
 MonoBehaviour:
   m_ObjectHideFlags: 0
