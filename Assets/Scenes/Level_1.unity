@@ -11939,7 +11939,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.72156864, g: 1, b: 0.95328844, a: 1}
-  m_Intensity: 1.28
+  m_Intensity: 2.17
   m_Range: 9.440854
   m_SpotAngle: 65.13423
   m_InnerSpotAngle: 21.80208
@@ -11996,14 +11996,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318253944}
-  m_LocalRotation: {x: 0.98883295, y: -0.118604794, z: -0.03233034, w: 0.08424404}
-  m_LocalPosition: {x: 6.51, y: 14.3, z: 51.39}
+  m_LocalRotation: {x: 0.9900949, y: -0.11965138, z: -0.055525873, w: 0.04808935}
+  m_LocalPosition: {x: 5.86, y: 14.99, z: 50.6}
   m_LocalScale: {x: 0.695264, y: 0.6952639, z: 0.695264}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 426
-  m_LocalEulerAnglesHint: {x: 9.145, y: -175.124, z: -165.931}
+  m_LocalEulerAnglesHint: {x: 4.7, y: -173, z: -165.931}
 --- !u!1 &318525071
 GameObject:
   m_ObjectHideFlags: 0
@@ -58430,7 +58430,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.72156864, g: 1, b: 0.95328844, a: 1}
-  m_Intensity: 1.28
+  m_Intensity: 3.09
   m_Range: 9.440854
   m_SpotAngle: 65.13423
   m_InnerSpotAngle: 21.80208
@@ -58488,7 +58488,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427990368}
   m_LocalRotation: {x: 0.98883295, y: -0.118604794, z: -0.03233034, w: 0.08424404}
-  m_LocalPosition: {x: -6.89, y: 14.87, z: 49.72}
+  m_LocalPosition: {x: -6.89, y: 14.87, z: 49.7}
   m_LocalScale: {x: 0.695264, y: 0.6952639, z: 0.695264}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70552,7 +70552,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.72156864, g: 1, b: 0.95328844, a: 1}
-  m_Intensity: 2.33
+  m_Intensity: 2.92
   m_Range: 9.440854
   m_SpotAngle: 65.13423
   m_InnerSpotAngle: 21.80208
@@ -71636,7 +71636,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.72156864, g: 1, b: 0.95328844, a: 1}
-  m_Intensity: 3.24
+  m_Intensity: 2.99
   m_Range: 9.440854
   m_SpotAngle: 65.13423
   m_InnerSpotAngle: 21.80208
@@ -71993,7 +71993,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.72156864, g: 1, b: 0.95328844, a: 1}
-  m_Intensity: 2.33
+  m_Intensity: 2.74
   m_Range: 9.440854
   m_SpotAngle: 65.13423
   m_InnerSpotAngle: 21.80208
