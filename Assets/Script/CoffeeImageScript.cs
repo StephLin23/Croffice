@@ -10,7 +10,7 @@ public class CoffeeImageScript : MonoBehaviour
 
     private int currentSpriteIndex = 0; // Index of the current coffee sprite
     private static float timer = .1f; // Static timer to track sprite change intervals
-    public float timeBetweenChanges = 5.0f; // Time between sprite changes
+    public float timeBetweenChanges = 60.0f; // Time between sprite changes
 
     void Awake()
     {
