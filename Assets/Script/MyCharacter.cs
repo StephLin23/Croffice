@@ -10,6 +10,7 @@ public class MyCharacter : MonoBehaviour
     private UnityEngine.AI.NavMeshPath _path;
     List<Vector3> _simplePath = new List<Vector3>();
     public CapsuleCollider _Collider;
+    public FootstepController footstepController;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +34,11 @@ public class MyCharacter : MonoBehaviour
             _simplePath.Add(_path.corners[i]);
         }
         Debug.Log("target is set");
+        {
+            footstepController.StartWalking();
+        }
     }
+
 
 
     // Update is called once per frame
@@ -65,10 +70,15 @@ public class MyCharacter : MonoBehaviour
         if (_simplePath.Count > 0)
         {
             MoveDirection = _simplePath[0] - transform.position;
+
+        }
+        if (_simplePath.Count == 0)
+        {
+            footstepController.StopWalking();
         }
 
-        //if the destination is a reasonable distance away, update the characters rotation to point in this direction
-        MoveDirection.y = 0.0f;
+            //if the destination is a reasonable distance away, update the characters rotation to point in this direction
+            MoveDirection.y = 0.0f;
         if (MoveDirection.magnitude > 0.5f)
         {
             MoveDirection.Normalize();
@@ -80,6 +90,7 @@ public class MyCharacter : MonoBehaviour
 
             //set a variable in the animation controller
             GetComponent<Animator>().SetFloat("WalkSpeed", 2.0f);
+
         }
         else
         {
@@ -123,7 +134,6 @@ public class MyCharacter : MonoBehaviour
                         //its not the floor, depenatrate in the natural direction
                         transform.position += hitDirection * hitDistance;
                     }
-
                     if (coliders[i].gameObject.layer == 3 && SceneManager.GetSceneByBuildIndex(2).isLoaded)
                     {
                         SceneManager.LoadScene(3);

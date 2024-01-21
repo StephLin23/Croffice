@@ -335,7 +335,7 @@ VideoPlayer:
   m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 10
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -574,7 +574,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9bdba43bde4b42c4eae2b6e33a4d4103, type: 3}
   - {fileID: 21300000, guid: 0ff3d06c1b9cb7b4e934de78f865a1bd, type: 3}
   - {fileID: 21300000, guid: 3bc3587196240f2409324a8989dd1812, type: 3}
-  timeBetweenChanges: 5
+  timeBetweenChanges: 50
 --- !u!114 &1125690817
 MonoBehaviour:
   m_ObjectHideFlags: 0
